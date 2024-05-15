@@ -1,37 +1,46 @@
-nav{
-    background-color: steelblue;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav a{
+nav {
+    background-color: steelblue;
+    padding: 10px;
+
+}
+
+nav a {
     color: white;
-    display: block;
+    display: Block;
     padding: 20px;
 }
 
-h1{
+h1 {
     color: steelblue;
 
 }
 
-img{
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    
+    box-shadow: 0 0 30px grey;
+    float: right;
+
 }
 
-p{
-    padding: 10px;
+p {
+    padding: 0px;
 }
 
-main{
+main {
     max-width: 840px;
+
 }
 
-aside{
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -41,22 +50,29 @@ aside{
     text-align: center;
 }
 
-aside img{
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
+aside img {
     width: 200px;
     height: auto;
 }
 
-main img{
-    width: 150px;
-    height: auto;
-}
-
-p{
-    padding: 0;
-}
-
-footer{
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* class selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
